@@ -5,12 +5,333 @@
     nav.sticky {
         position: sticky;
         top: 0;
-        padding: 10px;
+        padding: 0px;
         background-color: rgb(255, 255, 255);
-        border: 5px solid rgb(225, 208, 151);
+        border: 5px solid rgb(240, 161, 34);
+        text-align: center;
+        border-radius: 10px;
+        width: 1000px;
+        left: 30%;
+    }
+
+    #back {
+        position: absolute;
+        top: 10px;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(240, 161, 34);
+        text-align: center;
+        border-radius: 10px;
+        width: 500px;
+        left: 40%;
+    }
+    
+
+    a.pseudo1 {
+        background-color: rgb(14, 46, 255);
+        display: inline-block;
+        width: 90px;
+        height: 20px; 
+        padding: 10px;
+        margin: 20px 40px 20px 40px;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    a.pseudo2 {
+        background-color: rgb(14, 46, 255);
+        display: inline-block;
+        width: 120px;
+        height: 20px; 
+        padding: 10px;
+        margin: 20px 40px 20px 40px;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a.pseudo3 {
+        background-color: rgb(14, 46, 255);
+        display: inline-block;
+        width:270px;
+        height: 20px; 
+        padding: 10px;
+        margin: 20px 40px 20px 40px;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    a.pseudo4 {
+        background-color: rgb(14, 46, 255);
+        display: inline-block;
+        width:180px;
+        height: 20px; 
+        padding: 10px;
+        margin: 20px 40px 20px 40px;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+
+    a.pseudo1:hover {
+    color: orange;
+    }
+
+    a.pseudo2:hover {
+        color: orange;
+        }
+
+    a.pseudo3:hover {
+            color: orange;
+            }
+
+    a.pseudo4:hover {
+        color: orange;
+    }
+    
+    body {
+        background-color:rgb(250, 246, 237);
+    }
+
+
+    h1 {
+        text-align:center;
+        color: white;
+        font-family:Lucida Sans, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        text-shadow:
+        -1px -1px 0 #000,
+         0   -1px 0 #000,
+         1px -1px 0 #000,
+         1px  0   0 #000,
+         1px  1px 0 #000,
+         0    1px 0 #000,
+        -1px  1px 0 #000,
+        -1px  0   0 #000;
+    }
+
+
+    .p1 {
+        font-weight:bolder;
+        font-size:larger;
+        text-align:center;
+    }
+
+
+    .p2 {
         text-align: center;
     }
 
+    a.p3 {
+        position: absolute;
+        left: 45%;
+        color:rgb(14, 46, 255);
+        font-weight: bolder;
+        font-size: larger;
+        font-family: Verdana, Geneva, Verdana, sans-serif;
+    }
+
+    a.p3:hover {
+        color:orange;
+    }
+
+    a.p4:hover {
+        color: orange;
+    }
+
+
+    a.p5:hover {
+        color: orange;
+    }
+
+    a.p6:hover {
+        color: orange;
+    }
+
+    a.p4 {
+        position: absolute;
+        left: 45.3%;
+        color:rgb(14, 46, 255);
+        font-weight: bolder;
+        font-size: larger;
+        font-family: Verdana, Geneva, Verdana, sans-serif;
+    }
+    
+
+
+    a.p5 {
+        position: absolute;
+        left: 43.3%;
+        color:rgb(14, 46, 255);
+        font-weight: bolder;
+        font-size: larger;
+        font-family: Verdana, Geneva, Verdana, sans-serif;
+    }
+
+
+    a.p6 {
+        position: absolute;
+        left: 42.9%;
+        color:rgb(14, 46, 255);
+        font-weight: bolder;
+        font-size: larger;
+        font-family: Verdana, Geneva, Verdana, sans-serif;
+    }
+
+    .img1 {
+        position:absolute;
+        left: 22%;
+        top: 11%;
+    }
+
+
+    #img2 {
+        position:absolute;
+        left: 22%;
+        top: 1100px;
+    }
+
+
+    #img3 {
+        position:absolute;
+        left: 22%;
+        top: 1840px;
+    }
+    
+
+    #img4 {
+        position:absolute;
+        left: 22%;
+        top: 2600px;
+        padding-bottom: 20px;
+    }
+
+
+    .html1 {
+        position:absolute;
+        left: 17%;
+        top: 11%;
+    }
+
+
+    #html2 {
+        position:absolute;
+        left: 22%;
+        top: 850px;
+    }
+
+
+    #html3 {
+        position:absolute;
+        left: 22%;
+        top:2100px;
+    }
+    
+
+    #html4 {
+        position:absolute;
+        left: 22%;
+        top: 2900px;
+    }
+
+
+    #html5 {
+        position:absolute;
+        left: 22%;
+        top: 3700px;
+    }
+
+
+    #html6 {
+        position:absolute;
+        left: 22%;
+        top: 4500px;
+        padding-bottom: 20px;
+    }
+    
+
+    #sqs1 {
+        position:absolute;
+        left: 22%;
+        top: 2700px;
+    }
+
+
+    #sqs2 {
+        position:absolute;
+        left: 22%;
+        top: 3500px;
+        padding-bottom: 20px;
+    }
+
+
+    #sqs3 {
+        position:absolute;
+        left: 22%;
+        top:1900px;
+    }
+
+    #sqs4 {
+        position:absolute;
+        left: 22%;
+        top:950px;
+    }
+
+
+    #site1 {
+        position:absolute;
+        left: 22%;
+        top: 950px;
+    }
+
+
+    #computer {
+        position:absolute;
+        left: 28.5%;
+        top:550px;
+        padding-bottom: 20px;
+    }
+
+    #press {
+        position:absolute;
+        left: 22%;
+        top: 3700px;
+        padding-bottom: 20px;
+    }
+
+
+    .box {
+        background-color: white;
+        display:block;
+        position:absolute;
+        top:205px;
+        left: 34%;
+        width: 600px;
+        height: 450px;
+        border: 5px solid orange; 
+        padding: 40px;
+        margin: 20px 40px 20px 40px;
+        border-radius: 10px;
+        
+    }
+
+    #div {
+        font-size:30px;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+/*
     h1 {
         color:blueviolet;
     }
